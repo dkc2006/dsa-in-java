@@ -10,7 +10,7 @@ public class Arry_Prog_6 {
         String[] colors=new String[n];
         int sz=colors.length;
         System.out.println("Print Any "+n+" Colors Name");
-        for(int i=1;i<sz;i++)
+        for(int i=0;i<sz;i++)
         {
             System.out.println(i);
             colors[i]=sc.next();
