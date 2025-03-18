@@ -37,7 +37,6 @@ public class Implementation {
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
         }
-
         // Checking the size of the HashMap
         System.out.println("Size of HashMap: " + map.size());
 
