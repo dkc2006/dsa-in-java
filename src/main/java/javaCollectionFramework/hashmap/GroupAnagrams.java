@@ -17,7 +17,6 @@ public class GroupAnagrams {
 
         return new ArrayList<>(anagramMap.values());
     }
-
     public static void main(String[] args) {
         String[] words = {"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println("Grouped Anagrams: " + groupAnagrams(words));
